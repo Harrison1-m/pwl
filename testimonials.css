@@ -1,0 +1,177 @@
+/**{
+    outline: 2px solid red;
+}
+*/
+
+     /*   .testimonials {
+            padding: 60px 10px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .testimonials h2 {
+            font-size: 2.2rem;
+            margin-bottom: 40px;
+            color: #0066cc;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .testimonial-card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 30px 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .testimonial-card p {
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-card .author {
+            font-weight: bold;
+            color: #0066cc;
+        }
+
+        .testimonial-card .role {
+            color: #666;
+            font-size: 0.9rem;
+        }
+*/
+
+/* Container adjustments */
+.testimonials {
+    padding: 80px 20px; /* Increased padding for better breathing room */
+    text-align: center;
+    background-color: #C5A5A9;
+}
+
+.testimonials h2 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #0066cc;
+    letter-spacing: -0.5px; /* Subtle modern touch */
+}
+
+/* Grid refinement */
+.testimonials-grid {
+    display: grid;
+    /* Changed 350px to 300px for better mobile compatibility */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Card refinement */
+.testimonial-card {
+    background-color: #fcfcfc; /* Slightly lighter */
+    border-radius: 12px;
+    padding: 40px 30px;
+    /* Softer, more professional shadow */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease; /* Adds interaction */
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.testimonial-card p {
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.6; /* Improved readability */
+    margin-bottom: 25px;
+    color: #444;
+}
+
+.testimonial-card .author {
+    display: block; /* Ensures it sits on its own line */
+    font-weight: bold;
+    color: #0066cc;
+    margin-bottom: 4px;
+}
+
+.testimonial-card .role {
+    color: #777;
+    font-size: 0.85rem;
+    text-transform: uppercase; /* Distinguishes it from the author name */
+    letter-spacing: 1px;
+}
+
+
+        /* Video Testimonials Section */
+        .video-testimonials {
+            background-color: #f0f0f0;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .video-testimonials h2 {
+            font-size: 2.2rem;
+            margin-bottom: 40px;
+            color: #0066cc;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .video-card {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .video-card h3 {
+            padding: 15px;
+            color: #333;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x600/0066cc/ffffff?text=Share+Your+Story') no-repeat center center/cover;
+            padding: 80px 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .cta-section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            background-color: #ff6b35;
+            color: #fff;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            background-color: #e55a2b;
+        }
