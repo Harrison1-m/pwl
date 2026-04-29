@@ -1,5 +1,5 @@
 .hero {
-            background-image: url("images/bg-img1.jpg");
+            background-image: url("images/bg-img1.webp");
 background-size: cover;
 background-position: center;
 
@@ -10,18 +10,18 @@ background-position: center;
             justify-content: center;
             align-items: center;
             text-align: center;
-            color: #fff;
+            color: #000;
             text-shadow:
     -1px -1px 0 #0066cc,
      1px -1px 0 #0066cc,
-    -1px  1px 0 #0cc,
+    -1px  1px 0 #0066cc,
      1px  1px 0 #0066cc;
             padding: 0 20px;
         }
         
 @media (min-width: 768px) {
     .hero {
-        background-image: url("images/hero-desktop.jpg");
+        background-image: url("images/hero-desktop.webp");
     }
 }
 
