@@ -1,166 +1,206 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Powerful Leather Works - Gallery</title>
-    <link rel="icon" href="assets/favicon-1.webp" type="image.webp">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="gallery.css">
-    <style>
-        /* Gallery Categories Section */
-
-
-        /* Footer */
-
-
-
-    </style>
-</head>
-<body>
+    <link rel="icon" href="assets/favicon-1.webp" type="image.webp" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="gallery.css" />
+  </head>
+  <body>
     <!-- Navigation Bar -->
     <nav>
-    <div class="nav-container">
+      <div class="nav-container">
         <div class="logo">
-            <a href="index.html">Powerful Leather Works</a>
+          <a href="index.html">Powerful Leather Works</a>
         </div>
         <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-    </div>
-</nav>
+      </div>
+    </nav>
 
     <!-- Page Header -->
     <section class="page-header">
-        <h1>Our Gallery</h1>
-        <p>Explore our collection of custom stitch balls, sports jerseys, and training equipment</p>
+      <h1>Our Gallery</h1>
+      <p>
+        Explore our collection of custom stitch balls, sports jerseys, and
+        training equipment
+      </p>
     </section>
 
     <!-- Gallery Categories Section -->
     <section class="gallery-categories">
-        <h2>Browse by Category</h2>
-        <div class="categories-grid">
-            <a href="#" class="category-button active" data-category="all">All</a>
-            <a href="#" class="category-button" data-category="stitch-balls">Custom Stitch Balls</a>
-            <a href="#" class="category-button" data-category="jerseys">Sports Jerseys</a>
-            <a href="#" class="category-button" data-category="equipment">Training Equipment</a>
-            <a href="#" class="category-button" data-category="events">Events & Teams</a>
-        </div>
+      <h2>Browse by Category</h2>
+      <div class="categories-grid">
+        <a href="#" class="category-button active" data-category="all">All</a>
+        <a href="#" class="category-button" data-category="stitch-balls"
+          >Custom Stitch Balls</a
+        >
+        <a href="#" class="category-button" data-category="jerseys"
+          >Sports Jerseys</a
+        >
+        <a href="#" class="category-button" data-category="equipment"
+          >Training Equipment</a
+        >
+        <a href="#" class="category-button" data-category="events"
+          >Events & Teams</a
+        >
+      </div>
     </section>
 
     <!-- Image Gallery Section -->
     <section class="image-gallery">
-        <div class="gallery-grid" id="galleryGrid">
-            <!-- Custom Stitch Balls -->
-            <div class="gallery-item" data-category="stitch-balls">
-                <img loading="lazy" src="https://www.bestsoccerbuys.com/cdn/shop/products/Top_Star_Soccer_Ball_32_Panels_Hand_Stitched_PVC_Shine_Material_1024x1024.webp?v=1625206070" alt="Custom Stitch Ball">
-            </div>
-            <div class="gallery-item" data-category="stitch-balls">
-                <img loading="lazy" src="https://www.anthem-sports.com/media/catalog/product/cache/0ee050c3ffc3555709b9bb6062f4d7e9/a/1/a12-040.webp" alt="Soccer Training Ball">
-            </div>
-
-            <!-- Sports Jerseys -->
-            <div class="gallery-item" data-category="jerseys">
-                <img loading="lazy" src="https://media.gettyimages.com/id/165794869/vector/sports-equipment.webp?s=612x612&w=0&k=20&c=e8b76C0ypAXeqC4rIKNdgpUTNCuIVSSl7VUCJra7RzM=" alt="Sports Jerseys">
-            </div>
-            <div class="gallery-item" data-category="jerseys">
-                <img loading="lazy" src="https://img.freepik.com/free-vector/modern-fitness-equipment-man_23-2147535091.webp?semt=ais_hybrid&w=740" alt="Team Jerseys">
-            </div>
-
-            <!-- Training Equipment -->
-            <div class="gallery-item" data-category="equipment">
-                <img loading="lazy" src="https://img.freepik.com/free-vector/green-fitness-equipment-man_23-2147535918.webp?semt=ais_hybrid&w=740" alt="Training Equipment">
-            </div>
-            <div class="gallery-item" data-category="equipment">
-                <img loading="lazy" src="https://www.anthem-sports.com/media/catalog/product/cache/0ee050c3ffc3555709b9bb6062f4d7e9/a/1/a11-280-new.webp" alt="Soccer Goals">
-            </div>
-
-            <!-- Events & Teams -->
-            <div class="gallery-item" data-category="events">
-                <img loading="lazy" src="https://performanceteamsports.com/wp-content/uploads/2024/09/pexels-pixabay-163328-1024x683.webp" alt="Team Event">
-            </div>
-            <div class="gallery-item" data-category="events">
-                <img loading="lazy" src="https://www.anthem-sports.com/media/catalog/product/cache/0ee050c3ffc3555709b9bb6062f4d7e9/a/1/a12-000_14.webp" alt="Sports Training">
-            </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Custom Stitch Balls -->
+        <div class="gallery-item" data-category="stitch-balls">
+          <img
+            loading="lazy"
+            src="https://www.bestsoccerbuys.com/cdn/shop/products/Top_Star_Soccer_Ball_32_Panels_Hand_Stitched_PVC_Shine_Material_1024x1024.webp?v=1625206070"
+            alt="Custom Stitch Ball"
+          />
         </div>
+        <div class="gallery-item" data-category="stitch-balls">
+          <img
+            loading="lazy"
+            src="https://www.anthem-sports.com/media/catalog/product/cache/0ee050c3ffc3555709b9bb6062f4d7e9/a/1/a12-040.webp"
+            alt="Soccer Training Ball"
+          />
+        </div>
+
+        <!-- Sports Jerseys -->
+        <div class="gallery-item" data-category="jerseys">
+          <img
+            loading="lazy"
+            src="https://media.gettyimages.com/id/165794869/vector/sports-equipment.webp?s=612x612&w=0&k=20&c=e8b76C0ypAXeqC4rIKNdgpUTNCuIVSSl7VUCJra7RzM="
+            alt="Sports Jerseys"
+          />
+        </div>
+        <div class="gallery-item" data-category="jerseys">
+          <img
+            loading="lazy"
+            src="https://img.freepik.com/free-vector/modern-fitness-equipment-man_23-2147535091.webp?semt=ais_hybrid&w=740"
+            alt="Team Jerseys"
+          />
+        </div>
+
+        <!-- Training Equipment -->
+        <div class="gallery-item" data-category="equipment">
+          <img
+            loading="lazy"
+            src="https://img.freepik.com/free-vector/green-fitness-equipment-man_23-2147535918.webp?semt=ais_hybrid&w=740"
+            alt="Training Equipment"
+          />
+        </div>
+        <div class="gallery-item" data-category="equipment">
+          <img
+            loading="lazy"
+            src="https://www.anthem-sports.com/media/catalog/product/cache/0ee050c3ffc3555709b9bb6062f4d7e9/a/1/a11-280-new.webp"
+            alt="Soccer Goals"
+          />
+        </div>
+
+        <!-- Events & Teams -->
+        <div class="gallery-item" data-category="events">
+          <img
+            loading="lazy"
+            src="https://performanceteamsports.com/wp-content/uploads/2024/09/pexels-pixabay-163328-1024x683.webp"
+            alt="Team Event"
+          />
+        </div>
+        <div class="gallery-item" data-category="events">
+          <img
+            loading="lazy"
+            src="https://www.anthem-sports.com/media/catalog/product/cache/0ee050c3ffc3555709b9bb6062f4d7e9/a/1/a12-000_14.webp"
+            alt="Sports Training"
+          />
+        </div>
+      </div>
     </section>
 
     <!-- CTA Section -->
     <section class="cta-section">
-        <h2>Inspired by What You See?</h2>
-        <a href="contact.html" class="cta-button">Get in Touch</a>
+      <h2>Inspired by What You See?</h2>
+      <a href="contact.html" class="cta-button">Get in Touch</a>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="footer-content">
-            <div>
-                <h3>Powerful Leather Works</h3>
-                <p>Your trusted partner in sports equipment and custom stitch balls.</p>
-            </div>
-            <div>
-                <h3>Quick Links</h3>
-                <a href="index.html">Home</a>
-                <a href="products.html">Products</a>
-                <a href="services.html">Services</a>
-                <a href="about.html">About Us</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="blog.html">Blog</a>
-                <a href="contact.html">Contact</a>
-            </div>
-            <div>
-                <h3>Contact Us</h3>
-                <p>Email: info@powerfulleatherworks.com</p>
-                <p>Phone: +254 700 000000</p>
-                <p>Address: 123 Sports Street, Nairobi, Kenya</p>
-            </div>
-            <div>
-                <h3>Follow Us</h3>
-                <div class="social-links">
-                    <a href="#">📘</a>
-                    <a href="#">🐦</a>
-                    <a href="#">📷</a>
-                    <a href="#">📺</a>
-                </div>
-            </div>
+      <div class="footer-content">
+        <div>
+          <h3>Powerful Leather Works</h3>
+          <p>
+            Your trusted partner in sports equipment and custom stitch balls.
+          </p>
         </div>
+        <div>
+          <h3>Quick Links</h3>
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="services.html">Services</a>
+          <a href="about.html">About Us</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h3>Contact Us</h3>
+          <p>Email: info@powerfulleatherworks.com</p>
+          <p>Phone: +254 700 000000</p>
+          <p>Address: 123 Sports Street, Nairobi, Kenya</p>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#">📘</a>
+            <a href="#">🐦</a>
+            <a href="#">📷</a>
+            <a href="#">📺</a>
+          </div>
+        </div>
+      </div>
     </footer>
     <script>
-        // Filter gallery images by category
-        document.querySelectorAll('.category-button').forEach(button => {
-            button.addEventListener('click', (e) => {
-                e.preventDefault();
-                const category = button.getAttribute('data-category');
+      // Filter gallery images by category
+      document.querySelectorAll(".category-button").forEach((button) => {
+        button.addEventListener("click", (e) => {
+          e.preventDefault();
+          const category = button.getAttribute("data-category");
 
-                // Update active button
-                document.querySelectorAll('.category-button').forEach(btn => btn.classList.remove('active'));
-                button.classList.add('active');
+          // Update active button
+          document
+            .querySelectorAll(".category-button")
+            .forEach((btn) => btn.classList.remove("active"));
+          button.classList.add("active");
 
-                // Filter images
-                const images = document.querySelectorAll('.gallery-item');
-                images.forEach(image => {
-                    if (category === 'all' || image.getAttribute('data-category') === category) {
-                        image.style.display = 'block';
-                    } else {
-                        image.style.display = 'none';
-                    }
-                });
-            });
+          // Filter images
+          const images = document.querySelectorAll(".gallery-item");
+          images.forEach((image) => {
+            if (
+              category === "all" ||
+              image.getAttribute("data-category") === category
+            ) {
+              image.style.display = "block";
+            } else {
+              image.style.display = "none";
+            }
+          });
         });
+      });
     </script>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

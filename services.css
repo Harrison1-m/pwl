@@ -1,168 +1,212 @@
-        .page-header h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
-        }
+.page-header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
 
-        /* Product Categories Section */
-        .product-categories {
-            padding: 60px 20px;
-            text-align: center;
-            background-color: #fff;
-        }
+/* Our Services Section */
+.our-services {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+}
 
-        .product-categories h2 {
-            font-size: 2.2rem;
-            margin-bottom: 40px;
-            color: #0066cc;
-        }
+.our-services h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #0066cc;
+}
 
-        .categories-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-        .category-card {
-            background-color: #f9f9f9;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
+.service-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 30px 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
 
-        .category-card img {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-        }
+.service-card i {
+  font-size: 2.5rem;
+  color: #ff6b35;
+  margin-bottom: 15px;
+}
 
-        .category-card h3 {
-            font-size: 1.5rem;
-            margin: 20px 0 10px;
-        }
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
 
-        .category-card p {
-            padding: 0 20px 20px;
-            color: #666;
-        }
+.service-card p {
+  color: #666;
+}
 
-        /* Featured Products Section */
-        .featured-products {
-            background-color: #f0f0f0;
-            padding: 60px 20px;
-            text-align: center;
-        }
+/* Why Choose Us Section */
+.why-choose-us {
+  background-color: #f0f0f0;
+  padding: 60px 20px;
+  text-align: center;
+}
 
-        .featured-products h2 {
-            font-size: 2.2rem;
-            margin-bottom: 40px;
-            color: #0066cc;
-        }
+.why-choose-us h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #0066cc;
+}
 
-        .products-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
+.choose-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-        .product-card {
-            background-color: #fff;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
+.choose-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
 
-        .product-card img {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-        }
+.choose-card i {
+  font-size: 2.5rem;
+  color: #ff6b35;
+  margin-bottom: 15px;
+}
 
-        .product-card h3 {
-            font-size: 1.5rem;
-            margin: 20px 0 10px;
-        }
+.choose-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
 
-        .product-card p {
-            padding: 0 20px 20px;
-            color: #666;
-        }
+.choose-card p {
+  color: #666;
+}
 
-        /* Product Details Section */
-        .product-details {
-            padding: 60px 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            gap: 50px;
-        }
+/* Process Overview Section */
+.process-overview {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+}
 
-        .product-image {
-            width: 50%;
-        }
+.process-overview h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #0066cc;
+}
 
-        .product-image img {
-            width: 100%;
-            border-radius: 10px;
-        }
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-        .product-info {
-            width: 50%;
-        }
+.process-step {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 25px 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
 
-        .product-info h2 {
-            font-size: 2.2rem;
-            margin-bottom: 20px;
-            color: #0066cc;
-        }
+.process-step i {
+  font-size: 2rem;
+  color: #ff6b35;
+  margin-bottom: 15px;
+}
 
-        .product-info p {
-            font-size: 1.1rem;
-            margin-bottom: 15px;
-        }
+.process-step h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
 
-        /* CTA Section */
-        .cta-section {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x600/0066cc/ffffff?text=Ready+to+Order%3F') no-repeat center center/cover;
-            padding: 80px 20px;
-            text-align: center;
-            color: #fff;
-        }
+.process-step p {
+  color: #666;
+}
 
-        .cta-section h2 {
-            font-size: 2.2rem;
-            margin-bottom: 30px;
-        }
+/* Testimonials Section */
+.testimonials {
+  background-color: #f0f0f0;
+  padding: 60px 20px;
+  text-align: center;
+}
 
-        .cta-button {
-            background-color: #ff6b35;
-            color: #fff;
-            padding: 12px 25px;
-            border: none;
-            border-radius: 5px;
-            font-size: 1.1rem;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-block;
-        }
+.testimonials h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #0066cc;
+}
 
-        .cta-button:hover {
-            background-color: #e55a2b;
-        }
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-        /* Footer */
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
 
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .product-details {
-                flex-direction: column;
-            }
+.testimonial-card p {
+  font-style: italic;
+  margin-bottom: 15px;
+}
 
-            .product-image, .product-info {
-                width: 100%;
-            }
-        }
+.testimonial-card .author {
+  font-weight: bold;
+  color: #0066cc;
+}
+
+/* CTA Section */
+.cta-section {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://via.placeholder.com/1920x600/0066cc/ffffff?text=Get+Started+Today")
+      no-repeat center center/cover;
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.cta-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #ff6b35;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #e55a2b;
+}
+
+/* Footer */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 2.2rem;
+  }
+}

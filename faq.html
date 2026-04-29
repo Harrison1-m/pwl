@@ -1,319 +1,355 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Powerful Leather Works - FAQ</title>
-    <link rel="icon" href="assets/favicon-1.webp" type="image.webp">
-        
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="faq.css">
-        
-    </style>
-    <style>
-        /* Page Header */
-        
+    <link rel="icon" href="assets/favicon-1.webp" type="image.webp" />
 
-       
-
-        /* FAQ Categories Section */
-
-        }
-
-        /* Footer */
-    </style>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="faq.css" />
+  </head>
+  <body>
     <!-- Navigation Bar -->
     <nav>
-    <div class="nav-container">
+      <div class="nav-container">
         <div class="logo">
-            <a href="index.html">Powerful Leather Works</a>
+          <a href="index.html">Powerful Leather Works</a>
         </div>
         <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-    </div>
-</nav>
+      </div>
+    </nav>
 
     <!-- Page Header -->
     <section class="page-header">
-        <h1>Frequently Asked Questions</h1>
-        <p>Find answers to common questions about our products and services</p>
+      <h1>Frequently Asked Questions</h1>
+      <p>Find answers to common questions about our products and services</p>
     </section>
 
     <!-- FAQ Categories Section -->
     <section class="faq-categories">
-        <h2>Browse by Category</h2>
-        <div class="categories-grid">
-            <a href="#" class="category-button active" data-category="all">All</a>
-            <a href="#" class="category-button" data-category="products">Products</a>
-            <a href="#" class="category-button" data-category="services">Services</a>
-            <a href="#" class="category-button" data-category="ordering">Ordering</a>
-            <a href="#" class="category-button" data-category="shipping">Shipping</a>
-            <a href="#" class="category-button" data-category="returns">Returns</a>
-        </div>
+      <h2>Browse by Category</h2>
+      <div class="categories-grid">
+        <a href="#" class="category-button active" data-category="all">All</a>
+        <a href="#" class="category-button" data-category="products"
+          >Products</a
+        >
+        <a href="#" class="category-button" data-category="services"
+          >Services</a
+        >
+        <a href="#" class="category-button" data-category="ordering"
+          >Ordering</a
+        >
+        <a href="#" class="category-button" data-category="shipping"
+          >Shipping</a
+        >
+        <a href="#" class="category-button" data-category="returns">Returns</a>
+      </div>
     </section>
 
     <!-- FAQ Accordion Section -->
     <section class="faq-accordion">
-        <!-- Products FAQs -->
-        <div class="faq-item" data-category="products">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>What materials are your stitch balls made from?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                Our stitch balls are handcrafted using high-quality, durable leather and synthetic materials, designed for both performance and longevity. Each ball is stitched by hand to ensure maximum durability and a consistent feel.
-            </div>
+      <!-- Products FAQs -->
+      <div class="faq-item" data-category="products">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>What materials are your stitch balls made from?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          Our stitch balls are handcrafted using high-quality, durable leather
+          and synthetic materials, designed for both performance and longevity.
+          Each ball is stitched by hand to ensure maximum durability and a
+          consistent feel.
+        </div>
+      </div>
 
-        <div class="faq-item" data-category="products">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>Can I customize the design of my stitch ball?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                Yes! We offer full customization for stitch balls, including team logos, colors, and even player names. Our design team will work with you to create a ball that perfectly matches your team’s identity.
-            </div>
+      <div class="faq-item" data-category="products">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>Can I customize the design of my stitch ball?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          Yes! We offer full customization for stitch balls, including team
+          logos, colors, and even player names. Our design team will work with
+          you to create a ball that perfectly matches your team’s identity.
+        </div>
+      </div>
 
-        <div class="faq-item" data-category="products">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>Do you offer jerseys and other sports gear?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                Absolutely! In addition to stitch balls, we provide high-quality sports jerseys, training equipment, and protective gear. All our products can be customized to fit your team’s needs.
-            </div>
+      <div class="faq-item" data-category="products">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>Do you offer jerseys and other sports gear?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          Absolutely! In addition to stitch balls, we provide high-quality
+          sports jerseys, training equipment, and protective gear. All our
+          products can be customized to fit your team’s needs.
+        </div>
+      </div>
 
-        <!-- Services FAQs -->
-        <div class="faq-item" data-category="services">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>What customization services do you offer?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                We offer a range of customization services, including logo printing, color matching, and personalized text on stitch balls, jerseys, and other gear. Our team will guide you through the process to ensure your products are exactly as you envision.
-            </div>
+      <!-- Services FAQs -->
+      <div class="faq-item" data-category="services">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>What customization services do you offer?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          We offer a range of customization services, including logo printing,
+          color matching, and personalized text on stitch balls, jerseys, and
+          other gear. Our team will guide you through the process to ensure your
+          products are exactly as you envision.
+        </div>
+      </div>
 
-        <div class="faq-item" data-category="services">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>Do you provide repair services for sports equipment?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                Yes, we offer repair and maintenance services for all types of sports equipment, including stitch balls, jerseys, and training gear. Our goal is to extend the lifespan of your equipment and keep it in top condition.
-            </div>
+      <div class="faq-item" data-category="services">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>Do you provide repair services for sports equipment?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          Yes, we offer repair and maintenance services for all types of sports
+          equipment, including stitch balls, jerseys, and training gear. Our
+          goal is to extend the lifespan of your equipment and keep it in top
+          condition.
+        </div>
+      </div>
 
-        <div class="faq-item" data-category="services">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>Can I order in bulk for my team or school?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                Yes! We specialize in bulk orders for teams, schools, and retailers. Contact us for wholesale pricing and to discuss your specific needs.
-            </div>
+      <div class="faq-item" data-category="services">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>Can I order in bulk for my team or school?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          Yes! We specialize in bulk orders for teams, schools, and retailers.
+          Contact us for wholesale pricing and to discuss your specific needs.
+        </div>
+      </div>
 
-        <!-- Ordering FAQs -->
-        <div class="faq-item" data-category="ordering">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>How do I place an order?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                You can place an order by contacting us via phone, email, or through our website’s contact form. Our team will guide you through the process, from selecting products to finalizing your customization options.
-            </div>
+      <!-- Ordering FAQs -->
+      <div class="faq-item" data-category="ordering">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>How do I place an order?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          You can place an order by contacting us via phone, email, or through
+          our website’s contact form. Our team will guide you through the
+          process, from selecting products to finalizing your customization
+          options.
+        </div>
+      </div>
 
-        <div class="faq-item" data-category="ordering">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>What payment methods do you accept?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                We accept a variety of payment methods, including bank transfers, mobile money, and credit/debit cards. Our team will provide you with payment details once your order is confirmed.
-            </div>
+      <div class="faq-item" data-category="ordering">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>What payment methods do you accept?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          We accept a variety of payment methods, including bank transfers,
+          mobile money, and credit/debit cards. Our team will provide you with
+          payment details once your order is confirmed.
+        </div>
+      </div>
 
-        <div class="faq-item" data-category="ordering">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>How long does it take to process an order?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                Processing times vary depending on the complexity of your order. Standard orders typically take 5-7 business days, while custom or bulk orders may take longer. We’ll provide a timeline when you place your order.
-            </div>
+      <div class="faq-item" data-category="ordering">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>How long does it take to process an order?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          Processing times vary depending on the complexity of your order.
+          Standard orders typically take 5-7 business days, while custom or bulk
+          orders may take longer. We’ll provide a timeline when you place your
+          order.
+        </div>
+      </div>
 
-        <!-- Shipping FAQs -->
-        <div class="faq-item" data-category="shipping">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>Do you offer shipping within Kenya?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                Yes, we offer shipping throughout Kenya. Delivery times and costs depend on your location. Contact us for more details.
-            </div>
+      <!-- Shipping FAQs -->
+      <div class="faq-item" data-category="shipping">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>Do you offer shipping within Kenya?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          Yes, we offer shipping throughout Kenya. Delivery times and costs
+          depend on your location. Contact us for more details.
+        </div>
+      </div>
 
-        <div class="faq-item" data-category="shipping">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>Can you ship internationally?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                Currently, we primarily ship within Kenya. However, we may accommodate international orders on a case-by-case basis. Please contact us to discuss your needs.
-            </div>
+      <div class="faq-item" data-category="shipping">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>Can you ship internationally?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          Currently, we primarily ship within Kenya. However, we may accommodate
+          international orders on a case-by-case basis. Please contact us to
+          discuss your needs.
+        </div>
+      </div>
 
-        <div class="faq-item" data-category="shipping">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>How can I track my order?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                Once your order is shipped, we’ll provide you with a tracking number so you can monitor its progress. You can also contact us for updates at any time.
-            </div>
+      <div class="faq-item" data-category="shipping">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>How can I track my order?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          Once your order is shipped, we’ll provide you with a tracking number
+          so you can monitor its progress. You can also contact us for updates
+          at any time.
+        </div>
+      </div>
 
-        <!-- Returns FAQs -->
-        <div class="faq-item" data-category="returns">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>What is your return policy?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                We want you to be completely satisfied with your purchase. If you’re not happy with your order, please contact us within 7 days of delivery to discuss returns or exchanges. Customized items may not be eligible for return.
-            </div>
+      <!-- Returns FAQs -->
+      <div class="faq-item" data-category="returns">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>What is your return policy?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          We want you to be completely satisfied with your purchase. If you’re
+          not happy with your order, please contact us within 7 days of delivery
+          to discuss returns or exchanges. Customized items may not be eligible
+          for return.
+        </div>
+      </div>
 
-        <div class="faq-item" data-category="returns">
-            <div class="faq-question" onclick="toggleFaq(this)">
-                <span>How do I request a repair or replacement?</span>
-                <i class="faq-icon">⌄</i>
-            </div>
-            <div class="faq-answer">
-                If your product needs repair or replacement, please contact us with your order details. We’ll guide you through the process and ensure your equipment is restored to top condition.
-            </div>
+      <div class="faq-item" data-category="returns">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>How do I request a repair or replacement?</span>
+          <i class="faq-icon">⌄</i>
         </div>
+        <div class="faq-answer">
+          If your product needs repair or replacement, please contact us with
+          your order details. We’ll guide you through the process and ensure
+          your equipment is restored to top condition.
+        </div>
+      </div>
     </section>
 
     <!-- CTA Section -->
     <section class="cta-section">
-        <h2>Still Have Questions?</h2>
-        <a href="contact.html" class="cta-button">Contact Us Today</a>
+      <h2>Still Have Questions?</h2>
+      <a href="contact.html" class="cta-button">Contact Us Today</a>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="footer-content">
-            <div>
-                <h3>Powerful Leather Works</h3>
-                <p>Your trusted partner in sports equipment and custom stitch balls.</p>
-            </div>
-            <div>
-                <h3>Quick Links</h3>
-                <a href="index.html">Home</a>
-                <a href="products.html">Products</a>
-                <a href="services.html">Services</a>
-                <a href="about.html">About Us</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="blog.html">Blog</a>
-                <a href="contact.html">Contact</a>
-            </div>
-            <div>
-                <h3>Contact Us</h3>
-                <p>Email: info@powerfulleatherworks.com</p>
-                <p>Phone: +254 700 000000</p>
-                <p>Address: 123 Sports Street, Nairobi, Kenya</p>
-            </div>
-            <div>
-                <h3>Follow Us</h3>
-                <div class="social-links">
-                    <a href="#">📘</a>
-                    <a href="#">🐦</a>
-                    <a href="#">📷</a>
-                    <a href="#">📺</a>
-                </div>
-            </div>
+      <div class="footer-content">
+        <div>
+          <h3>Powerful Leather Works</h3>
+          <p>
+            Your trusted partner in sports equipment and custom stitch balls.
+          </p>
         </div>
+        <div>
+          <h3>Quick Links</h3>
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="services.html">Services</a>
+          <a href="about.html">About Us</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h3>Contact Us</h3>
+          <p>Email: info@powerfulleatherworks.com</p>
+          <p>Phone: +254 700 000000</p>
+          <p>Address: 123 Sports Street, Nairobi, Kenya</p>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#">📘</a>
+            <a href="#">🐦</a>
+            <a href="#">📷</a>
+            <a href="#">📺</a>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script>
-    
-    // Toggle hamburger menu
-document.querySelector('.hamburger').addEventListener('click', function() {
-    document.querySelector('.nav-links').classList.toggle('active');
-    this.classList.toggle('active');
-});
-
-// Close menu when a link is clicked (optional)
-document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', function() {
-        document.querySelector('.nav-links').classList.remove('active');
-        document.querySelector('.hamburger').classList.remove('active');
-    });
-});
-
-
-        // Toggle FAQ answers
-        function toggleFaq(element) {
-            const answer = element.nextElementSibling;
-            const icon = element.querySelector('.faq-icon');
-
-            if (answer.classList.contains('active')) {
-                answer.classList.remove('active');
-                icon.classList.remove('rotate');
-            } else {
-                // Close all other FAQs
-                document.querySelectorAll('.faq-answer').forEach(ans => ans.classList.remove('active'));
-                document.querySelectorAll('.faq-icon').forEach(ic => ic.classList.remove('rotate'));
-
-                // Open clicked FAQ
-                answer.classList.add('active');
-                icon.classList.add('rotate');
-            }
-        }
-
-        // Filter FAQs by category
-        document.querySelectorAll('.category-button').forEach(button => {
-            button.addEventListener('click', (e) => {
-                e.preventDefault();
-                const category = button.getAttribute('data-category');
-
-                // Update active button
-                document.querySelectorAll('.category-button').forEach(btn => btn.classList.remove('active'));
-                button.classList.add('active');
-
-                // Filter FAQs
-                const faqs = document.querySelectorAll('.faq-item');
-                faqs.forEach(faq => {
-                    if (category === 'all' || faq.getAttribute('data-category') === category) {
-                        faq.style.display = 'block';
-                    } else {
-                        faq.style.display = 'none';
-                    }
-                });
-            });
+      // Toggle hamburger menu
+      document
+        .querySelector(".hamburger")
+        .addEventListener("click", function () {
+          document.querySelector(".nav-links").classList.toggle("active");
+          this.classList.toggle("active");
         });
+
+      // Close menu when a link is clicked (optional)
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", function () {
+          document.querySelector(".nav-links").classList.remove("active");
+          document.querySelector(".hamburger").classList.remove("active");
+        });
+      });
+
+      // Toggle FAQ answers
+      function toggleFaq(element) {
+        const answer = element.nextElementSibling;
+        const icon = element.querySelector(".faq-icon");
+
+        if (answer.classList.contains("active")) {
+          answer.classList.remove("active");
+          icon.classList.remove("rotate");
+        } else {
+          // Close all other FAQs
+          document
+            .querySelectorAll(".faq-answer")
+            .forEach((ans) => ans.classList.remove("active"));
+          document
+            .querySelectorAll(".faq-icon")
+            .forEach((ic) => ic.classList.remove("rotate"));
+
+          // Open clicked FAQ
+          answer.classList.add("active");
+          icon.classList.add("rotate");
+        }
+      }
+
+      // Filter FAQs by category
+      document.querySelectorAll(".category-button").forEach((button) => {
+        button.addEventListener("click", (e) => {
+          e.preventDefault();
+          const category = button.getAttribute("data-category");
+
+          // Update active button
+          document
+            .querySelectorAll(".category-button")
+            .forEach((btn) => btn.classList.remove("active"));
+          button.classList.add("active");
+
+          // Filter FAQs
+          const faqs = document.querySelectorAll(".faq-item");
+          faqs.forEach((faq) => {
+            if (
+              category === "all" ||
+              faq.getAttribute("data-category") === category
+            ) {
+              faq.style.display = "block";
+            } else {
+              faq.style.display = "none";
+            }
+          });
+        });
+      });
     </script>
-</body>
+  </body>
 </html>

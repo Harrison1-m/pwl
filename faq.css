@@ -1,114 +1,118 @@
-        .faq-categories {
-            padding: 60px 20px;
-            text-align: center;
-            background-color: #fff;
-        }
+.faq-categories {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+}
 
-        .faq-categories h2 {
-            font-size: 2.2rem;
-            margin-bottom: 40px;
-            color: #0066cc;
-        }
+.faq-categories h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #0066cc;
+}
 
-        .categories-grid {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-bottom: 40px;
-            flex-wrap: wrap;
-        }
+.categories-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
 
-        .category-button {
-            background-color: #f9f9f9;
-            color: #333;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            font-size: 1rem;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-block;
-            border: 1px solid #ddd;
-        }
+.category-button {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #ddd;
+}
 
-        .category-button:hover, .category-button.active {
-            background-color: #0066cc;
-            color: #fff;
-        }
+.category-button:hover,
+.category-button.active {
+  background-color: #0066cc;
+  color: #fff;
+}
 
-        /* FAQ Accordion Section */
-        .faq-accordion {
-            padding: 0 20px 60px;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
+/* FAQ Accordion Section */
+.faq-accordion {
+  padding: 0 20px 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
-        .faq-item {
-            background-color: #fff;
-            border-radius: 10px;
-            margin-bottom: 15px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
+.faq-item {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
 
-        .faq-question {
-            padding: 20px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-weight: bold;
-            font-size: 1.1rem;
-        }
+.faq-question {
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
 
-        .faq-question:hover {
-            background-color: #f9f9f9;
-        }
+.faq-question:hover {
+  background-color: #f9f9f9;
+}
 
-        .faq-answer {
-            padding: 0 20px 20px;
-            color: #666;
-            display: none;
-        }
+.faq-answer {
+  padding: 0 20px 20px;
+  color: #666;
+  display: none;
+}
 
-        .faq-answer.active {
-            display: block;
-        }
+.faq-answer.active {
+  display: block;
+}
 
-        .faq-icon {
-            font-size: 1.5rem;
-            transition: transform 0.3s ease;
-        }
+.faq-icon {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
 
-        .faq-icon.rotate {
-            transform: rotate(180deg);
-        }
+.faq-icon.rotate {
+  transform: rotate(180deg);
+}
 
-        /* CTA Section */
-        .cta-section {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x600/0066cc/ffffff?text=Need+More+Help%3F') no-repeat center center/cover;
-            padding: 80px 20px;
-            text-align: center;
-            color: #fff;
-        }
+/* CTA Section */
+.cta-section {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://via.placeholder.com/1920x600/0066cc/ffffff?text=Need+More+Help%3F")
+      no-repeat center center/cover;
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+}
 
-        .cta-section h2 {
-            font-size: 2.2rem;
-            margin-bottom: 30px;
-        }
+.cta-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
 
-        .cta-button {
-            background-color: #ff6b35;
-            color: #fff;
-            padding: 12px 25px;
-            border: none;
-            border-radius: 5px;
-            font-size: 1.1rem;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-block;
-        }
+.cta-button {
+  background-color: #ff6b35;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
 
-        .cta-button:hover {
-            background-color: #e55a2b;
-        }
+.cta-button:hover {
+  background-color: #e55a2b;
+}
