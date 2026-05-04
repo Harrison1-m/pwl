@@ -1,3 +1,36 @@
+.hero {
+  background-image: url("images/bg-img1.webp");
+  background-size: cover;
+  background-position: center;
+
+  height: 100dvh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
+
+.hero > h1,
+.hero > p {
+  padding: 3px;
+  margin: 3px;
+  border-radius: 8px;
+  background : #d9d205c5;
+}
+
+.hero > a,
+.hero > a:visited,
+.hero > a:hover,
+.hero > a:active {
+  text-decoration: none;
+  background : #fff;
+  padding: 2px;
+  border-radius: 2px;
+}
+
 .latest-products {
   padding: 60px 20px;
   text-align: center;
